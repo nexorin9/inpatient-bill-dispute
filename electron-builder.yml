@@ -1,0 +1,39 @@
+appId: com.hospital.inpatient-bill-dispute
+productName: 住院费用争议解释
+copyright: Copyright © 2026 ChaosForge
+
+directories:
+  output: release
+  buildResources: build
+
+files:
+  - dist/**/*
+  - package.json
+  - qrcode.jpg
+  - preload.cjs
+  - samples/**/*.json
+
+extraResources:
+  - from: samples
+    to: samples
+    filter:
+      - '**/*.json'
+
+asar: true
+
+mac:
+  category: public.app-category.medical
+  target:
+    - dmg
+    - zip
+  artifactName: ${productName}-${version}-${arch}.${ext}
+
+win:
+  target:
+    - nsis
+  artifactName: ${productName}-${version}-${arch}.${ext}
+
+linux:
+  target:
+    - AppImage
+  artifactName: ${productName}-${version}-${arch}.${ext}

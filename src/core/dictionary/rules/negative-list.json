@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "version": "NEGATIVE-LIST-2024",
+    "effective_from": "2024-01-01",
+    "source": "domain/rules/医保违规负面清单.md §4 智能审核规则条目 / §3.3 收费类定义",
+    "smart_rule_count": 7,
+    "charge_definition_count": 3
+  },
+  "smart_rules": [
+    {
+      "rule_id": "§4-1",
+      "basis_ref": "§4-1",
+      "name": "非目录审核",
+      "trigger": "自费或限工伤/限生育的药品与项目纳入基本医保报销",
+      "dictionary": "医保目录（药品/诊疗/耗材）",
+      "severity": "high"
+    },
+    {
+      "rule_id": "§4-2",
+      "basis_ref": "§4-2",
+      "name": "限定适应症用药",
+      "trigger": "目录备注的限定适应症与使用条件",
+      "dictionary": "医保药品目录备注",
+      "severity": "high"
+    },
+    {
+      "rule_id": "§4-3",
+      "basis_ref": "§4-3",
+      "name": "限定医院类型级别",
+      "trigger": "限定「二级及以上医疗机构」等与实际机构级别比对",
+      "dictionary": "机构级别字典",
+      "severity": "medium"
+    },
+    {
+      "rule_id": "§4-4",
+      "basis_ref": "§4-4",
+      "name": "限儿童",
+      "trigger": "目录限新生儿、限儿童支付的药品与项目",
+      "dictionary": "年龄口径字典",
+      "severity": "medium"
+    },
+    {
+      "rule_id": "§4-5",
+      "basis_ref": "§4-5",
+      "name": "限定性别",
+      "trigger": "目录性别限定药品与项目",
+      "dictionary": "性别限定字典",
+      "severity": "medium"
+    },
+    {
+      "rule_id": "§4-6",
+      "basis_ref": "§4-6",
+      "name": "费用日期不在住院期间",
+      "trigger": "费用发生日期超出住院日期范围，或一次性补传费用明细",
+      "dictionary": "住院登记（入出院日期）",
+      "severity": "high"
+    },
+    {
+      "rule_id": "§4-7",
+      "basis_ref": "§4-7",
+      "name": "超限定频次",
+      "trigger": "诊疗项目在时间区间内使用频次超规",
+      "dictionary": "频次限定字典",
+      "severity": "medium"
+    }
+  ],
+  "charge_definitions": [
+    {
+      "id": "§3.3-1",
+      "name": "重复收费",
+      "definition": "已收取某诊疗项目费用，再单独收取该项目内涵或步骤已包含的相关项目费用"
+    },
+    {
+      "id": "§3.3-2",
+      "name": "超标准收费",
+      "definition": "超过政府最高指导价；超价格加收标准；非主手术按主手术标准收费；按日计费项目收费数量大于实际住院天数；改变计价单位多收费"
+    },
+    {
+      "id": "§3.3-3",
+      "name": "分解项目收费",
+      "definition": "将一个项目内涵、步骤分解为若干项目分别收费"
+    }
+  ]
+}

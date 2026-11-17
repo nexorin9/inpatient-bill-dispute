@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "version": "RECON-2021-38",
+    "effective_from": "2021-09-06",
+    "source": "domain/corpus/settlement/settlement_list_js_江苏省贯彻结算清单修订通知含修订要点.txt（苏医保办发〔2021〕38 号）",
+    "group_count": 2
+  },
+  "groups": [
+    {
+      "id": "RECON-1",
+      "basis_ref": "苏医保办发〔2021〕38号 §二（四）",
+      "expression": "金额合计 = 医保统筹基金支付 + 补充医疗保险支付 + 医疗救助支付 + 个人负担",
+      "left": [
+        "total_amount"
+      ],
+      "right": [
+        "insured_fund_paid",
+        "supplementary_paid",
+        "medical_aid_paid",
+        "personal_burden"
+      ]
+    },
+    {
+      "id": "RECON-2",
+      "basis_ref": "苏医保办发〔2021〕38号 §二（四）",
+      "expression": "个人负担 = 其他支付 + 个人支付",
+      "left": [
+        "personal_burden"
+      ],
+      "right": [
+        "other_paid",
+        "personal_paid"
+      ]
+    }
+  ]
+}

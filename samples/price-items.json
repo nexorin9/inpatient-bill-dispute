@@ -1,0 +1,174 @@
+{
+  "version": "PRICE-2026-03",
+  "effective_from": "2026-03-01",
+  "items": [
+    {
+      "price_item_code": "ITEM001",
+      "name": "床位费",
+      "insurance_attribute": "甲",
+      "unit_price": 20.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM002",
+      "name": "诊察费",
+      "insurance_attribute": "甲",
+      "unit_price": 15.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM003",
+      "name": "住院诊查费",
+      "insurance_attribute": "甲",
+      "unit_price": 25.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM004",
+      "name": "CT 平扫",
+      "insurance_attribute": "甲",
+      "unit_price": 280.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM005",
+      "name": "彩色多普勒超声",
+      "insurance_attribute": "乙",
+      "unit_price": 120.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM006",
+      "name": "血常规",
+      "insurance_attribute": "甲",
+      "unit_price": 25.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM007",
+      "name": "生化全套",
+      "insurance_attribute": "乙",
+      "unit_price": 320.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM008",
+      "name": "静脉输液",
+      "insurance_attribute": "甲",
+      "unit_price": 12.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM009",
+      "name": "换药",
+      "insurance_attribute": "甲",
+      "unit_price": 30.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM010",
+      "name": "麻醉费",
+      "insurance_attribute": "乙",
+      "unit_price": 680.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM011",
+      "name": "阑尾切除术",
+      "insurance_attribute": "乙",
+      "unit_price": 1200.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM012",
+      "name": "一级护理",
+      "insurance_attribute": "甲",
+      "unit_price": 18.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM014",
+      "name": "氯化钠注射液",
+      "insurance_attribute": "甲",
+      "unit_price": 6.75,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM015",
+      "name": "注射用头孢呋辛",
+      "insurance_attribute": "自费",
+      "unit_price": 46.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM016",
+      "name": "黄芪饮片",
+      "insurance_attribute": "自费",
+      "unit_price": 12.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM017",
+      "name": "复方丹参滴丸",
+      "insurance_attribute": "乙",
+      "unit_price": 32.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM018",
+      "name": "一般诊疗费",
+      "insurance_attribute": "甲",
+      "unit_price": 10.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM019",
+      "name": "挂号费",
+      "insurance_attribute": "甲",
+      "unit_price": 5.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM020",
+      "name": "空调降温费",
+      "insurance_attribute": "自费",
+      "unit_price": 3.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM021",
+      "name": "心电监护",
+      "insurance_attribute": "乙",
+      "unit_price": 60.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    },
+    {
+      "price_item_code": "ITEM022",
+      "name": "氧气吸入",
+      "insurance_attribute": "甲",
+      "unit_price": 8.00,
+      "effective_from": "2026-03-01",
+      "version": "PRICE-2026-03"
+    }
+  ]
+}

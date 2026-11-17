@@ -1,0 +1,13 @@
+住院费用口径解释已生成
+  咨询编号：CS-EXPLAIN-000001
+  住院号（掩码）：****0001
+  数据来源：本地脱敏样例（非真实院内数据）
+  解释稿文件：/Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_040_20261109_045411/inpatient-bill-dispute/outbox/explanation-CS-EXPLAIN-000001.md
+  争议分类单：/Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_040_20261109_045411/inpatient-bill-dispute/outbox/classification-CS-EXPLAIN-000001.json
+  引用条数：30
+  逐条覆盖明细行：18 行
+  争议分类：需人工判断
+  质疑点：1 ｜ 规则命中：11 ｜ 勾稽命中：0
+  模型通道：确定性基线（模型未配置）
+  咨询单状态：草稿待确认（未经收费员确认，不得外发）
+  归因留痕：第 4 轮

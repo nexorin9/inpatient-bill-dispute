@@ -1,0 +1,3719 @@
+{
+  "source": "synthea-derived",
+  "license": "Apache-2.0",
+  "generated_at": "2026-11-13T17:39:26.054Z",
+  "encounters": [
+    {
+      "encounter_no": "ZY2026000001",
+      "admission_date": "2026-03-01",
+      "discharge_date": "2026-03-08",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 100.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 60.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-02",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 125.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM004",
+          "item_name": "CT 平扫",
+          "amount": 1120.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-01",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 240.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-02",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 75.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-01",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 320.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM008",
+          "item_name": "静脉输液",
+          "amount": 24.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-02",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 2720.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 4800.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 54.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-02",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 34.00,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 20.25,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-01",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 230.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-01",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 24.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 192.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 18,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 10.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-02",
+          "dept_code": "D008"
+        }
+      ],
+      "payment": {
+        "total_amount": 10298.25,
+        "insured_fund_paid": 5664.00,
+        "supplementary_paid": 823.75,
+        "medical_aid_paid": 206.00,
+        "personal_burden": 3604.50,
+        "other_paid": 1081.25,
+        "personal_paid": 2523.25
+      }
+    },
+    {
+      "encounter_no": "ZY2026000002",
+      "admission_date": "2026-03-02",
+      "discharge_date": "2026-03-13",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 25.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 18.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 360.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 10.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 32.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 2720.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-16",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 46.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 42.50,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 120.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 6.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 1600.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 7200.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-02",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 100.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 60.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 60.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 18,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-02",
+          "dept_code": "D004"
+        }
+      ],
+      "payment": {
+        "total_amount": 12739.50,
+        "insured_fund_paid": 7006.75,
+        "supplementary_paid": 1019.25,
+        "medical_aid_paid": 254.75,
+        "personal_burden": 4458.75,
+        "other_paid": 1337.75,
+        "personal_paid": 3121.00
+      }
+    },
+    {
+      "encounter_no": "ZY2026000003",
+      "admission_date": "2026-03-03",
+      "discharge_date": "2026-03-13",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 72.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 6.75,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 5.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 72.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 25.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 80.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 180.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-17",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 6.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 20.25,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 8.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 10.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 16.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 60.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D004"
+        }
+      ],
+      "payment": {
+        "total_amount": 1051.00,
+        "insured_fund_paid": 578.00,
+        "supplementary_paid": 84.00,
+        "medical_aid_paid": 21.00,
+        "personal_burden": 368.00,
+        "other_paid": 110.50,
+        "personal_paid": 257.50
+      }
+    },
+    {
+      "encounter_no": "ZY2026000004",
+      "admission_date": "2026-03-04",
+      "discharge_date": "2026-03-10",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 276.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 25.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 960.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 192.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 300.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 36.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 360.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM004",
+          "item_name": "CT 平扫",
+          "amount": 1400.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 20.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 27.00,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM008",
+          "item_name": "静脉输液",
+          "amount": 72.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 60.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 360.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 192.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 45.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 20.25,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D002"
+        }
+      ],
+      "payment": {
+        "total_amount": 4395.25,
+        "insured_fund_paid": 2417.50,
+        "supplementary_paid": 351.50,
+        "medical_aid_paid": 88.00,
+        "personal_burden": 1538.25,
+        "other_paid": 461.50,
+        "personal_paid": 1076.75
+      }
+    },
+    {
+      "encounter_no": "ZY2026000005",
+      "admission_date": "2026-03-05",
+      "discharge_date": "2026-03-14",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 25.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 3600.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 32.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 6.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 2400.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-20",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 1200.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 40.50,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 75.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 12.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 33.75,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 60.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 1200.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 1600.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 16.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 46.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 18,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 36.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D008"
+        }
+      ],
+      "payment": {
+        "total_amount": 10462.25,
+        "insured_fund_paid": 5754.25,
+        "supplementary_paid": 837.00,
+        "medical_aid_paid": 209.25,
+        "personal_burden": 3661.75,
+        "other_paid": 1098.50,
+        "personal_paid": 2563.25
+      }
+    },
+    {
+      "encounter_no": "ZY2026000006",
+      "admission_date": "2026-03-06",
+      "discharge_date": "2026-03-16",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 138.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM004",
+          "item_name": "CT 平扫",
+          "amount": 1120.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM008",
+          "item_name": "静脉输液",
+          "amount": 72.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 20.25,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 192.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 32.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 75.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-20",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 36.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 60.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 720.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 100.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 30.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 5.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-20",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 80.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 680.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 33.75,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D002"
+        }
+      ],
+      "payment": {
+        "total_amount": 3394.00,
+        "insured_fund_paid": 1866.75,
+        "supplementary_paid": 271.50,
+        "medical_aid_paid": 68.00,
+        "personal_burden": 1187.75,
+        "other_paid": 356.25,
+        "personal_paid": 831.50
+      }
+    },
+    {
+      "encounter_no": "ZY2026000007",
+      "admission_date": "2026-03-07",
+      "discharge_date": "2026-03-14",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 276.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 1600.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 16.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM008",
+          "item_name": "静脉输液",
+          "amount": 24.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 64.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 48.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM004",
+          "item_name": "CT 平扫",
+          "amount": 1120.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-18",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 20.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 54.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 80.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 108.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 6000.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 30.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 60.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM008",
+          "item_name": "静脉输液",
+          "amount": 36.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 12.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D002"
+        }
+      ],
+      "payment": {
+        "total_amount": 9548.00,
+        "insured_fund_paid": 5249.00,
+        "supplementary_paid": 763.75,
+        "medical_aid_paid": 191.00,
+        "personal_burden": 3341.75,
+        "other_paid": 1002.50,
+        "personal_paid": 2339.25
+      },
+      "reconciliation_expected": false
+    },
+    {
+      "encounter_no": "ZY2026000008",
+      "admission_date": "2026-03-08",
+      "discharge_date": "2026-03-15",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 600.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 10.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 8.50,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 60.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 60.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 15.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 18.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-20",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 30.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 32.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 15.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 36.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 120.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 24.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 92.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 184.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM004",
+          "item_name": "CT 平扫",
+          "amount": 560.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D002"
+        }
+      ],
+      "payment": {
+        "total_amount": 1904.50,
+        "insured_fund_paid": 1047.50,
+        "supplementary_paid": 152.25,
+        "medical_aid_paid": 38.00,
+        "personal_burden": 666.75,
+        "other_paid": 200.00,
+        "personal_paid": 466.75
+      }
+    },
+    {
+      "encounter_no": "ZY2026000009",
+      "admission_date": "2026-03-09",
+      "discharge_date": "2026-03-15",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 12.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 12.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 108.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 600.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 34.00,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 20.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 138.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-18",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 180.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 40.50,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 125.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 480.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 8.50,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 25.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 64.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 72.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 18,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 16.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D005"
+        }
+      ],
+      "payment": {
+        "total_amount": 2025.00,
+        "insured_fund_paid": 1113.75,
+        "supplementary_paid": 162.00,
+        "medical_aid_paid": 40.50,
+        "personal_burden": 708.75,
+        "other_paid": 212.75,
+        "personal_paid": 496.00
+      }
+    },
+    {
+      "encounter_no": "ZY2026000010",
+      "admission_date": "2026-03-10",
+      "discharge_date": "2026-03-20",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 3600.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-19",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 20.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-19",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-17",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 60.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 72.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-20",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 90.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-25",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 680.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-20",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 120.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 480.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-20",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 60.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 25.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 60.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 100.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 680.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 15.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 64.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D008"
+        }
+      ],
+      "payment": {
+        "total_amount": 6216.00,
+        "insured_fund_paid": 3418.75,
+        "supplementary_paid": 497.25,
+        "medical_aid_paid": 124.25,
+        "personal_burden": 2175.75,
+        "other_paid": 652.75,
+        "personal_paid": 1523.00
+      }
+    },
+    {
+      "encounter_no": "ZY2026000011",
+      "admission_date": "2026-03-11",
+      "discharge_date": "2026-03-19",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 54.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 8.50,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 480.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 20.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-16",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 125.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-17",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM004",
+          "item_name": "CT 平扫",
+          "amount": 280.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 20.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-25",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 6.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 100.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 10.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 54.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-18",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 15.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-25",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 6.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 17.00,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-16",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 1200.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-19",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 125.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D003"
+        }
+      ],
+      "payment": {
+        "total_amount": 2670.50,
+        "insured_fund_paid": 1468.75,
+        "supplementary_paid": 213.75,
+        "medical_aid_paid": 53.50,
+        "personal_burden": 934.50,
+        "other_paid": 280.25,
+        "personal_paid": 654.25
+      }
+    },
+    {
+      "encounter_no": "ZY2026000012",
+      "admission_date": "2026-03-12",
+      "discharge_date": "2026-03-22",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 125.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 125.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-22",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 600.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 360.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-22",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 17.00,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-16",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 90.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-20",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 2400.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-27",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 25.50,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-19",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 25.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-22",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-17",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-19",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 360.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-17",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM004",
+          "item_name": "CT 平扫",
+          "amount": 1120.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-16",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 480.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-22",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 125.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-21",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 6.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D008"
+        }
+      ],
+      "payment": {
+        "total_amount": 6048.50,
+        "insured_fund_paid": 3326.75,
+        "supplementary_paid": 484.00,
+        "medical_aid_paid": 121.00,
+        "personal_burden": 2116.75,
+        "other_paid": 635.00,
+        "personal_paid": 1481.75
+      }
+    },
+    {
+      "encounter_no": "ZY2026000013",
+      "admission_date": "2026-03-01",
+      "discharge_date": "2026-03-10",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 2040.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 320.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 10.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 32.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-01",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 4080.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-01",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 300.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 60.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 15.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 42.50,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 192.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-01",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 138.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 30.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 18.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 184.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-01",
+          "dept_code": "D004"
+        }
+      ],
+      "payment": {
+        "total_amount": 7591.50,
+        "insured_fund_paid": 4175.25,
+        "supplementary_paid": 607.25,
+        "medical_aid_paid": 151.75,
+        "personal_burden": 2657.25,
+        "other_paid": 797.25,
+        "personal_paid": 1860.00
+      }
+    },
+    {
+      "encounter_no": "ZY2026000014",
+      "admission_date": "2026-03-02",
+      "discharge_date": "2026-03-14",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 15.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 1360.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 12.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 30.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 40.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM008",
+          "item_name": "静脉输液",
+          "amount": 12.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-19",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-02",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 184.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM008",
+          "item_name": "静脉输液",
+          "amount": 48.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 240.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 36.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 3400.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-02",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 30.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 120.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 1600.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D001"
+        }
+      ],
+      "payment": {
+        "total_amount": 7277.00,
+        "insured_fund_paid": 3999.75,
+        "supplementary_paid": 582.25,
+        "medical_aid_paid": 145.50,
+        "personal_burden": 2547.00,
+        "other_paid": 764.00,
+        "personal_paid": 1783.00
+      },
+      "reconciliation_expected": false
+    },
+    {
+      "encounter_no": "ZY2026000015",
+      "admission_date": "2026-03-03",
+      "discharge_date": "2026-03-09",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 138.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 92.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 1200.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 180.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 600.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 125.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 60.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 100.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 960.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 12.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 360.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 128.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 27.00,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 72.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 4080.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 120.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-03",
+          "dept_code": "D005"
+        }
+      ],
+      "payment": {
+        "total_amount": 8254.00,
+        "insured_fund_paid": 4539.75,
+        "supplementary_paid": 660.25,
+        "medical_aid_paid": 165.00,
+        "personal_burden": 2889.00,
+        "other_paid": 866.75,
+        "personal_paid": 2022.25
+      }
+    },
+    {
+      "encounter_no": "ZY2026000016",
+      "admission_date": "2026-03-04",
+      "discharge_date": "2026-03-12",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 25.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 30.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 60.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 90.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 960.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 360.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-16",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 20.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 4080.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 160.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 4800.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 640.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 60.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-17",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 100.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-04",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 10.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 20.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 1280.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 18,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 17.00,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D001"
+        }
+      ],
+      "payment": {
+        "total_amount": 12762.00,
+        "insured_fund_paid": 7019.00,
+        "supplementary_paid": 1021.00,
+        "medical_aid_paid": 255.25,
+        "personal_burden": 4466.75,
+        "other_paid": 1340.00,
+        "personal_paid": 3126.75
+      }
+    },
+    {
+      "encounter_no": "ZY2026000017",
+      "admission_date": "2026-03-05",
+      "discharge_date": "2026-03-14",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 30.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 92.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 46.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 125.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 120.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 12.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 92.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-19",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 360.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-05",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 48.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM008",
+          "item_name": "静脉输液",
+          "amount": 72.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 360.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM003",
+          "item_name": "住院诊查费",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 20.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 36.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 12.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 17,
+          "price_item_code": "ITEM004",
+          "item_name": "CT 平扫",
+          "amount": 1680.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 18,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 360.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D001"
+        }
+      ],
+      "payment": {
+        "total_amount": 3765.00,
+        "insured_fund_paid": 2070.75,
+        "supplementary_paid": 301.25,
+        "medical_aid_paid": 75.25,
+        "personal_burden": 1317.75,
+        "other_paid": 395.25,
+        "personal_paid": 922.50
+      }
+    },
+    {
+      "encounter_no": "ZY2026000018",
+      "admission_date": "2026-03-06",
+      "discharge_date": "2026-03-15",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 3.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 15.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 20.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM004",
+          "item_name": "CT 平扫",
+          "amount": 280.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 25.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 100.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 15.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-20",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 300.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 120.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-06",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 150.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-15",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 46.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 4800.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM001",
+          "item_name": "床位费",
+          "amount": 120.00,
+          "fee_category": "甲类",
+          "fee_class": "床位费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 8.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 25.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 120.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D007"
+        }
+      ],
+      "payment": {
+        "total_amount": 6147.00,
+        "insured_fund_paid": 3380.75,
+        "supplementary_paid": 491.75,
+        "medical_aid_paid": 123.00,
+        "personal_burden": 2151.50,
+        "other_paid": 645.50,
+        "personal_paid": 1506.00
+      }
+    },
+    {
+      "encounter_no": "ZY2026000019",
+      "admission_date": "2026-03-07",
+      "discharge_date": "2026-03-19",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM020",
+          "item_name": "空调降温费",
+          "amount": 18.00,
+          "fee_category": "其他",
+          "fee_class": "其他",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-16",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 120.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM017",
+          "item_name": "复方丹参滴丸",
+          "amount": 32.00,
+          "fee_category": "乙类",
+          "fee_class": "中成药费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM014",
+          "item_name": "氯化钠注射液",
+          "amount": 20.25,
+          "fee_category": "甲类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D001"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 72.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 8.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-22",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM015",
+          "item_name": "注射用头孢呋辛",
+          "amount": 46.00,
+          "fee_category": "乙类",
+          "fee_class": "西药费",
+          "occurred_at": "2026-03-17",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM019",
+          "item_name": "挂号费",
+          "amount": 20.00,
+          "fee_category": "自费",
+          "fee_class": "挂号费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM010",
+          "item_name": "麻醉费",
+          "amount": 680.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM008",
+          "item_name": "静脉输液",
+          "amount": 72.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-18",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 60.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 4800.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-07",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM005",
+          "item_name": "彩色多普勒超声",
+          "amount": 720.00,
+          "fee_category": "乙类",
+          "fee_class": "检查费",
+          "occurred_at": "2026-03-17",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM022",
+          "item_name": "氧气吸入",
+          "amount": 32.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D006"
+        }
+      ],
+      "payment": {
+        "total_amount": 6800.25,
+        "insured_fund_paid": 3740.25,
+        "supplementary_paid": 544.00,
+        "medical_aid_paid": 136.00,
+        "personal_burden": 2380.00,
+        "other_paid": 714.00,
+        "personal_paid": 1666.00
+      }
+    },
+    {
+      "encounter_no": "ZY2026000020",
+      "admission_date": "2026-03-08",
+      "discharge_date": "2026-03-14",
+      "lines": [
+        {
+          "line_no": 1,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 24.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 2,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 30.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 3,
+          "price_item_code": "ITEM018",
+          "item_name": "一般诊疗费",
+          "amount": 20.00,
+          "fee_category": "甲类",
+          "fee_class": "一般诊疗费",
+          "occurred_at": "2026-03-12",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 4,
+          "price_item_code": "ITEM011",
+          "item_name": "阑尾切除术",
+          "amount": 2400.00,
+          "fee_category": "乙类",
+          "fee_class": "手术费",
+          "occurred_at": "2026-03-10",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 5,
+          "price_item_code": "ITEM016",
+          "item_name": "黄芪饮片",
+          "amount": 12.00,
+          "fee_category": "自费",
+          "fee_class": "中药饮片费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D004"
+        },
+        {
+          "line_no": 6,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 25.50,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-14",
+          "dept_code": "D008"
+        },
+        {
+          "line_no": 7,
+          "price_item_code": "ITEM007",
+          "item_name": "生化全套",
+          "amount": 1280.00,
+          "fee_category": "乙类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-19",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 8,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 240.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D002"
+        },
+        {
+          "line_no": 9,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 90.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 10,
+          "price_item_code": "ITEM002",
+          "item_name": "诊察费",
+          "amount": 45.00,
+          "fee_category": "甲类",
+          "fee_class": "诊察费",
+          "occurred_at": "2026-03-13",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 11,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 90.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D003"
+        },
+        {
+          "line_no": 12,
+          "price_item_code": "ITEM006",
+          "item_name": "血常规",
+          "amount": 50.00,
+          "fee_category": "甲类",
+          "fee_class": "化验费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 13,
+          "price_item_code": "ITEM012",
+          "item_name": "一级护理",
+          "amount": 108.00,
+          "fee_category": "甲类",
+          "fee_class": "护理费",
+          "occurred_at": "2026-03-09",
+          "dept_code": "D006"
+        },
+        {
+          "line_no": 14,
+          "price_item_code": "ITEM009",
+          "item_name": "换药",
+          "amount": 90.00,
+          "fee_category": "甲类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-11",
+          "dept_code": "D007"
+        },
+        {
+          "line_no": 15,
+          "price_item_code": "ITEM021",
+          "item_name": "心电监护",
+          "amount": 300.00,
+          "fee_category": "乙类",
+          "fee_class": "治疗费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D005"
+        },
+        {
+          "line_no": 16,
+          "price_item_code": "ITEM013",
+          "item_name": "一次性输液器",
+          "amount": 25.50,
+          "fee_category": "乙类",
+          "fee_class": "卫生材料费",
+          "occurred_at": "2026-03-08",
+          "dept_code": "D007"
+        }
+      ],
+      "payment": {
+        "total_amount": 4830.00,
+        "insured_fund_paid": 2656.50,
+        "supplementary_paid": 386.50,
+        "medical_aid_paid": 96.50,
+        "personal_burden": 1690.50,
+        "other_paid": 507.25,
+        "personal_paid": 1183.25
+      }
+    }
+  ]
+}

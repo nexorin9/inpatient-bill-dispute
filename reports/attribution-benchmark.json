@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "definitions": {
+      "coverage": "归因覆盖率 = 被正确归并到标注明细行的质疑点占比（预测行号集合与标注集合完全一致才算正确）",
+      "misattribution": "误挂率 = 归因到错误明细行、或依据缺失却仍给出确定性解释的质疑点占比"
+    },
+    "model_path_note": "本环境未配置模型网关凭据：模型路径以本地语义归并器 + 人工标注集回放作为协议替身，不是真实模型推理；不得据此宣称模型增益来自真实推理。",
+    "generated_at": "2026-11-14T07:13:22.903Z",
+    "dictionary_version": "SETTLEMENT-193-2021",
+    "price_version": "PRICE-2026-03",
+    "label_snapshot": "reports/attribution-labels-snapshot.json"
+  },
+  "model_path": {
+    "coverage": 93.75,
+    "misattribution": 6.25,
+    "sampleSize": 48,
+    "elapsedMs": 2,
+    "correct": 45,
+    "misattributed": 3
+  },
+  "baseline_path": {
+    "coverage": 0,
+    "misattribution": 100,
+    "sampleSize": 48,
+    "elapsedMs": 0,
+    "correct": 0,
+    "misattributed": 48
+  },
+  "observedGain": true,
+  "conclusion": "本批标注集上语义归并路径覆盖率高于纯规则基线且误挂率未上升，观察到增益（协议替身运行，非真实模型推理结论）。"
+}

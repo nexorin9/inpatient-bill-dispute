@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "definition": "归因覆盖率=每条解释带有效引用或显式依据缺失的占比；零漏行=已归因行+显式依据缺失行=输入明细行数；耗时为单批真实运行墙钟时间",
+    "source": "samples/bill-details.json（Synthea 公开字段口径派生）+ samples/transcripts.json",
+    "generated_at": "2026-11-14T07:13:23.830Z"
+  },
+  "consultationCount": 20,
+  "lineCount": 339,
+  "coveredLines": 326,
+  "missingLines": 13,
+  "citationCoverage": 100,
+  "refusalCount": 10,
+  "elapsedMs": 6,
+  "p50Ms": 0,
+  "p95Ms": 1,
+  "per_consultation": [
+    {
+      "no": "SCALE-001",
+      "lines": 18,
+      "elapsedMs": 2
+    },
+    {
+      "no": "SCALE-002",
+      "lines": 18,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-003",
+      "lines": 17,
+      "elapsedMs": 1
+    },
+    {
+      "no": "SCALE-004",
+      "lines": 17,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-005",
+      "lines": 18,
+      "elapsedMs": 1
+    },
+    {
+      "no": "SCALE-006",
+      "lines": 16,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-007",
+      "lines": 16,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-008",
+      "lines": 17,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-009",
+      "lines": 18,
+      "elapsedMs": 1
+    },
+    {
+      "no": "SCALE-010",
+      "lines": 17,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-011",
+      "lines": 17,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-012",
+      "lines": 16,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-013",
+      "lines": 17,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-014",
+      "lines": 17,
+      "elapsedMs": 1
+    },
+    {
+      "no": "SCALE-015",
+      "lines": 16,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-016",
+      "lines": 18,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-017",
+      "lines": 18,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-018",
+      "lines": 16,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-019",
+      "lines": 16,
+      "elapsedMs": 0
+    },
+    {
+      "no": "SCALE-020",
+      "lines": 16,
+      "elapsedMs": 0
+    }
+  ]
+}

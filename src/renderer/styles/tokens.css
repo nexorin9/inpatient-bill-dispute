@@ -1,0 +1,131 @@
+/* ==========================================================================
+   设计 token —— 住院费用争议解释系统 · 收费员工作台
+   本文件是唯一允许出现裸色值的地方；app.css 组件样式一律通过 var(--xxx) 引用。
+   色板 / 中性灰阶 / 8px 间距栅格 / 字号 / 圆角 / 阴影 / 动效 / 语义色。
+   ========================================================================== */
+
+:root {
+  /* ---- 品牌与语义色板 ---- */
+  --bg: #F5F7FA;
+  --primary: #1F6FEB;
+  --primary-hover: #1A5FD0;
+  --primary-active: #154FB0;
+  --primary-soft: #E8F1FE;
+  --success: #17A673;
+  --success-soft: #E6F6F0;
+  --warning: #D98A00;
+  --warning-soft: #FBF0DC;
+  --danger: #D64545;
+  --danger-hover: #BF3A3A;
+  --danger-active: #A23030;
+  --danger-soft: #FBE9E9;
+  --info: #2C6ECB;
+  --info-soft: #E9F0FB;
+
+  /* ---- 中性灰阶（5 档以上）---- */
+  --gray-50: #FBFCFE;
+  --gray-100: #F1F4F8;
+  --gray-200: #E3E8EF;
+  --gray-300: #CBD3DE;
+  --gray-400: #9AA6B5;
+  --gray-500: #5B6B7C;
+  --gray-600: #42536A;
+  --gray-700: #2E3D52;
+  --gray-800: #1C2940;
+  --gray-900: #101A2C;
+
+  /* ---- 表面与描边 ---- */
+  --surface: #FFFFFF;
+  --surface-alt: #FAFBFD;
+  --surface-raised: #FFFFFF;
+  --surface-sunken: #EFF3F8;
+  --border: #E3E8EF;
+  --border-strong: #CBD3DE;
+  --divider: #EDF1F6;
+  --transparent: transparent;
+
+  /* ---- 文本层级 ---- */
+  --text-strong: #101A2C;
+  --text: #2E3D52;
+  --text-muted: #5B6B7C;
+  --text-faint: #9AA6B5;
+  --text-on-primary: #FFFFFF;
+  --text-on-danger: #FFFFFF;
+
+  /* ---- 分类三值语义色（院内核对 / 需转医保办 / 需人工判断）---- */
+  --cat-internal: #17A673;
+  --cat-internal-soft: #E6F6F0;
+  --cat-insurance: #D98A00;
+  --cat-insurance-soft: #FBF0DC;
+  --cat-human: #D64545;
+  --cat-human-soft: #FBE9E9;
+
+  /* ---- 连通性端点状态色 ---- */
+  --state-ok: #17A673;
+  --state-ok-soft: #E6F6F0;
+  --state-missing: #9AA6B5;
+  --state-missing-soft: #F1F4F8;
+  --state-unreachable: #D64545;
+  --state-unreachable-soft: #FBE9E9;
+
+  /* ---- 交互态 ---- */
+  --row-hover: #F1F4F8;
+  --row-selected: #E8F1FE;
+  --chip-bg: #F1F4F8;
+  --chip-border: #E3E8EF;
+  --focus-ring: rgba(31, 111, 235, 0.28);
+  --focus-ring-error: rgba(214, 69, 69, 0.28);
+  --overlay: rgba(16, 26, 44, 0.46);
+  --tooltip-bg: #1C2940;
+  --tooltip-text: #FFFFFF;
+  --skeleton-base: #E9EEF5;
+  --skeleton-sheen: #F5F8FC;
+  --skeleton-bg: linear-gradient(90deg, #E9EEF5 25%, #F5F8FC 50%, #E9EEF5 75%);
+  --scrollbar-thumb: #CBD3DE;
+  --scrollbar-track: #F1F4F8;
+  --shadow-1: 0 1px 2px rgba(16, 26, 44, 0.06);
+  --shadow-2: 0 4px 12px rgba(16, 26, 44, 0.10);
+  --shadow-3: 0 12px 32px rgba(16, 26, 44, 0.18);
+
+  /* ---- 字体族 ---- */
+  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", "Menlo", "Consolas", ui-monospace, monospace;
+
+  /* ---- 字号（4 级以上）---- */
+  --fs-11: 11px;
+  --fs-12: 12px;
+  --fs-13: 13px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-22: 22px;
+  --fs-28: 28px;
+
+  /* ---- 8px 间距栅格 ---- */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+
+  /* ---- 圆角（三级）---- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+
+  /* ---- 动效时长（150–250ms）---- */
+  --dur-fast: 150ms;
+  --dur-base: 200ms;
+  --dur-slow: 250ms;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ---- 行高与布局尺寸 ---- */
+  --lh-tight: 1.35;
+  --lh-base: 1.6;
+  --header-h: 56px;
+  --summary-h: 76px;
+  --left-w: 400px;
+  --z-sticky: 5;
+}

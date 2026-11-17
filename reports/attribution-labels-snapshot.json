@@ -1,0 +1,2492 @@
+{
+  "_meta": {
+    "source": "samples/attribution-labels.json",
+    "count": 48
+  },
+  "labels": [
+    {
+      "transcript_id": "T001",
+      "question_point": "上次多算了3200 元，病房的钱怎么这么贵？",
+      "line_numbers": [
+        1
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T003",
+      "question_point": "我闺女让我来问一下，单剧上挂号的钱写的是320 元，跟我印象对不上啊？",
+      "line_numbers": [
+        3
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T005",
+      "question_point": "家里人让我打听一下，怎么又多出来一笔开刀的钱，1200 元？",
+      "line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T007",
+      "question_point": "上回拍片子的钱没这么贵，这回咋多了120 元？",
+      "line_numbers": [
+        7
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T009",
+      "question_point": "我闺女让我来问一下，能不能麻烦核队一下中药饮片的钱，好像多收了3 元？",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T011",
+      "question_point": "家里人让我打听一下，上次多算了3 千 2，护士照看的钱怎么这么贵？",
+      "line_numbers": [
+        1,
+        11
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T013",
+      "question_point": "单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "line_numbers": [
+        1,
+        5
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T015",
+      "question_point": "我闺女让我来问一下，怎么又多出来一笔打麻药的钱，1 千 2？",
+      "line_numbers": [
+        15
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T017",
+      "question_point": "家里人让我打听一下，上回消炎针的钱没这么贵，这回咋多了一百二？",
+      "line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T019",
+      "question_point": "能不能麻烦核队一下做 B 超的钱，好像多收了三块钱？",
+      "line_numbers": [
+        3,
+        15
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T021",
+      "question_point": "我闺女让我来问一下，上次多算了三千二，查房的钱怎么这么贵？",
+      "line_numbers": [
+        3
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T023",
+      "question_point": "家里人让我打听一下，单剧上病房的钱写的是320 块钱，跟我印象对不上啊？",
+      "line_numbers": [
+        6
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T025",
+      "question_point": "怎么又多出来一笔开刀的钱，一千二？",
+      "line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T027",
+      "question_point": "我闺女让我来问一下，上回护士照看的钱没这么贵，这回咋多了120 块钱？",
+      "line_numbers": [
+        9,
+        11
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T029",
+      "question_point": "家里人让我打听一下，能不能麻烦核队一下中药饮片的钱，好像多收了三块？",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T031",
+      "question_point": "上次多算了3200 块钱，空调费怎么这么贵？",
+      "line_numbers": [
+        8,
+        12,
+        14
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T033",
+      "question_point": "我闺女让我来问一下，单剧上打麻药的钱写的是三百二十，跟我印象对不上啊？",
+      "line_numbers": [
+        1,
+        5
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T035",
+      "question_point": "家里人让我打听一下，怎么又多出来一笔开刀的钱，一千二百块？",
+      "line_numbers": [
+        3
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T037",
+      "question_point": "上回消炎针的钱没这么贵，这回咋多了一百二十？",
+      "line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T039",
+      "question_point": "我闺女让我来问一下，能不能麻烦核队一下吸氧的钱，好像多收了3 元？",
+      "line_numbers": [
+        7,
+        16
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T041",
+      "question_point": "家里人让我打听一下，上次多算了3千2百，做 B 超的钱怎么这么贵？",
+      "line_numbers": [
+        5
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T043",
+      "question_point": "单剧上空调费写的是320 元，跟我印象对不上啊？",
+      "line_numbers": [
+        9
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T045",
+      "question_point": "我闺女让我来问一下，怎么又多出来一笔开刀的钱，1200 元？",
+      "line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T047",
+      "question_point": "家里人让我打听一下，上回挂水的钱没这么贵，这回咋多了120 元？",
+      "line_numbers": [
+        4,
+        15
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T049",
+      "question_point": "能不能麻烦核队一下中药饮片的钱，好像多收了三块钱？",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T051",
+      "question_point": "我闺女让我来问一下，上次多算了3200 元，验血的钱怎么这么贵？",
+      "line_numbers": [
+        5,
+        17
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T053",
+      "question_point": "家里人让我打听一下，单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "line_numbers": [
+        1,
+        5
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T055",
+      "question_point": "怎么又多出来一笔心电监护的钱，1 千 2？",
+      "line_numbers": [
+        4,
+        7
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T057",
+      "question_point": "我闺女让我来问一下，上回消炎针的钱没这么贵，这回咋多了一百二？",
+      "line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T059",
+      "question_point": "家里人让我打听一下，能不能麻烦核队一下打麻药的钱，好像多收了三块？",
+      "line_numbers": [
+        11
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T061",
+      "question_point": "上次多算了3 千 2，抽血化验的钱怎么这么贵？",
+      "line_numbers": [
+        7
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T063",
+      "question_point": "我闺女让我来问一下，单剧上验血的钱写的是320 块钱，跟我印象对不上啊？",
+      "line_numbers": [
+        12,
+        14
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T065",
+      "question_point": "家里人让我打听一下，怎么又多出来一笔开刀的钱，一千二？",
+      "line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T067",
+      "question_point": "上回吸氧的钱没这么贵，这回咋多了120 块钱？",
+      "line_numbers": [
+        3
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T069",
+      "question_point": "我闺女让我来问一下，能不能麻烦核队一下中药饮片的钱，好像多收了3 元？",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T071",
+      "question_point": "家里人让我打听一下，上次多算了三千二，做 B 超的钱怎么这么贵？",
+      "line_numbers": [
+        3
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T073",
+      "question_point": "单剧上打麻药的钱写的是三百二十，跟我印象对不上啊？",
+      "line_numbers": [
+        1,
+        5
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T075",
+      "question_point": "我闺女让我来问一下，怎么又多出来一笔做 B 超的钱，一千二百块？",
+      "line_numbers": [
+        5,
+        11
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T077",
+      "question_point": "家里人让我打听一下，上回消炎针的钱没这么贵，这回咋多了一百二十？",
+      "line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T079",
+      "question_point": "能不能麻烦核队一下做 B 超的钱，好像多收了三块钱？",
+      "line_numbers": [
+        3,
+        15
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T081",
+      "question_point": "我闺女让我来问一下，上次多算了3200 块钱，换药包的钱怎么这么贵？",
+      "line_numbers": [
+        9
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T083",
+      "question_point": "家里人让我打听一下，单剧上诊疗费写的是320 元，跟我印象对不上啊？",
+      "line_numbers": [
+        15
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T085",
+      "question_point": "怎么又多出来一笔开刀的钱，1200 元？",
+      "line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T087",
+      "question_point": "我闺女让我来问一下，上回拍片子的钱没这么贵，这回咋多了120 元？",
+      "line_numbers": [
+        7
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T089",
+      "question_point": "家里人让我打听一下，能不能麻烦核队一下中药饮片的钱，好像多收了三块？",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "transcript_id": "T091",
+      "question_point": "上次多算了3千2百，拍片子的钱怎么这么贵？",
+      "line_numbers": [
+        6
+      ],
+      "category": "internal_check"
+    },
+    {
+      "transcript_id": "T093",
+      "question_point": "我闺女让我来问一下，单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "line_numbers": [
+        1,
+        5
+      ],
+      "category": "needs_human"
+    },
+    {
+      "transcript_id": "T095",
+      "question_point": "家里人让我打听一下，怎么又多出来一笔打麻药的钱，1 千 2？",
+      "line_numbers": [
+        15
+      ],
+      "category": "to_insurance_office"
+    }
+  ],
+  "semantic_runs": [
+    {
+      "transcriptId": "T001",
+      "point": "上次多算了3200 元，病房的钱怎么这么贵？",
+      "expected": [
+        1
+      ],
+      "predicted": [
+        1
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T003",
+      "point": "我闺女让我来问一下，单剧上挂号的钱写的是320 元，跟我印象对不上啊？",
+      "expected": [
+        3
+      ],
+      "predicted": [
+        3
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T005",
+      "point": "家里人让我打听一下，怎么又多出来一笔开刀的钱，1200 元？",
+      "expected": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "predicted": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T007",
+      "point": "上回拍片子的钱没这么贵，这回咋多了120 元？",
+      "expected": [
+        7
+      ],
+      "predicted": [
+        7
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T009",
+      "point": "我闺女让我来问一下，能不能麻烦核队一下中药饮片的钱，好像多收了3 元？",
+      "expected": [
+        1,
+        2
+      ],
+      "predicted": [
+        1,
+        2
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T011",
+      "point": "家里人让我打听一下，上次多算了3 千 2，护士照看的钱怎么这么贵？",
+      "expected": [
+        1,
+        11
+      ],
+      "predicted": [
+        1,
+        11
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T013",
+      "point": "单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "expected": [
+        1,
+        5
+      ],
+      "predicted": [
+        1,
+        5
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T015",
+      "point": "我闺女让我来问一下，怎么又多出来一笔打麻药的钱，1 千 2？",
+      "expected": [
+        15
+      ],
+      "predicted": [
+        15
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T017",
+      "point": "家里人让我打听一下，上回消炎针的钱没这么贵，这回咋多了一百二？",
+      "expected": [
+        2,
+        3,
+        7
+      ],
+      "predicted": [
+        2,
+        3,
+        7
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T019",
+      "point": "能不能麻烦核队一下做 B 超的钱，好像多收了三块钱？",
+      "expected": [
+        3,
+        15
+      ],
+      "predicted": [],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T021",
+      "point": "我闺女让我来问一下，上次多算了三千二，查房的钱怎么这么贵？",
+      "expected": [
+        3
+      ],
+      "predicted": [
+        3
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T023",
+      "point": "家里人让我打听一下，单剧上病房的钱写的是320 块钱，跟我印象对不上啊？",
+      "expected": [
+        6
+      ],
+      "predicted": [
+        6
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T025",
+      "point": "怎么又多出来一笔开刀的钱，一千二？",
+      "expected": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "predicted": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T027",
+      "point": "我闺女让我来问一下，上回护士照看的钱没这么贵，这回咋多了120 块钱？",
+      "expected": [
+        9,
+        11
+      ],
+      "predicted": [
+        9,
+        11
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T029",
+      "point": "家里人让我打听一下，能不能麻烦核队一下中药饮片的钱，好像多收了三块？",
+      "expected": [
+        1,
+        2
+      ],
+      "predicted": [
+        1,
+        2
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T031",
+      "point": "上次多算了3200 块钱，空调费怎么这么贵？",
+      "expected": [
+        8,
+        12,
+        14
+      ],
+      "predicted": [
+        8,
+        12,
+        14
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T033",
+      "point": "我闺女让我来问一下，单剧上打麻药的钱写的是三百二十，跟我印象对不上啊？",
+      "expected": [
+        1,
+        5
+      ],
+      "predicted": [
+        1,
+        5
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T035",
+      "point": "家里人让我打听一下，怎么又多出来一笔开刀的钱，一千二百块？",
+      "expected": [
+        3
+      ],
+      "predicted": [
+        3
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T037",
+      "point": "上回消炎针的钱没这么贵，这回咋多了一百二十？",
+      "expected": [
+        2,
+        3,
+        7
+      ],
+      "predicted": [
+        2,
+        3,
+        7
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T039",
+      "point": "我闺女让我来问一下，能不能麻烦核队一下吸氧的钱，好像多收了3 元？",
+      "expected": [
+        7,
+        16
+      ],
+      "predicted": [],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T041",
+      "point": "家里人让我打听一下，上次多算了3千2百，做 B 超的钱怎么这么贵？",
+      "expected": [
+        5
+      ],
+      "predicted": [
+        5
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T043",
+      "point": "单剧上空调费写的是320 元，跟我印象对不上啊？",
+      "expected": [
+        9
+      ],
+      "predicted": [
+        9
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T045",
+      "point": "我闺女让我来问一下，怎么又多出来一笔开刀的钱，1200 元？",
+      "expected": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "predicted": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T047",
+      "point": "家里人让我打听一下，上回挂水的钱没这么贵，这回咋多了120 元？",
+      "expected": [
+        4,
+        15
+      ],
+      "predicted": [
+        4,
+        15
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T049",
+      "point": "能不能麻烦核队一下中药饮片的钱，好像多收了三块钱？",
+      "expected": [
+        1,
+        2
+      ],
+      "predicted": [
+        1,
+        2
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T051",
+      "point": "我闺女让我来问一下，上次多算了3200 元，验血的钱怎么这么贵？",
+      "expected": [
+        5,
+        17
+      ],
+      "predicted": [
+        5,
+        17
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T053",
+      "point": "家里人让我打听一下，单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "expected": [
+        1,
+        5
+      ],
+      "predicted": [
+        1,
+        5
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T055",
+      "point": "怎么又多出来一笔心电监护的钱，1 千 2？",
+      "expected": [
+        4,
+        7
+      ],
+      "predicted": [
+        4,
+        7
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T057",
+      "point": "我闺女让我来问一下，上回消炎针的钱没这么贵，这回咋多了一百二？",
+      "expected": [
+        2,
+        3,
+        7
+      ],
+      "predicted": [
+        2,
+        3,
+        7
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T059",
+      "point": "家里人让我打听一下，能不能麻烦核队一下打麻药的钱，好像多收了三块？",
+      "expected": [
+        11
+      ],
+      "predicted": [
+        11
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T061",
+      "point": "上次多算了3 千 2，抽血化验的钱怎么这么贵？",
+      "expected": [
+        7
+      ],
+      "predicted": [
+        7
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T063",
+      "point": "我闺女让我来问一下，单剧上验血的钱写的是320 块钱，跟我印象对不上啊？",
+      "expected": [
+        12,
+        14
+      ],
+      "predicted": [
+        12,
+        14
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T065",
+      "point": "家里人让我打听一下，怎么又多出来一笔开刀的钱，一千二？",
+      "expected": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "predicted": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T067",
+      "point": "上回吸氧的钱没这么贵，这回咋多了120 块钱？",
+      "expected": [
+        3
+      ],
+      "predicted": [
+        3
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T069",
+      "point": "我闺女让我来问一下，能不能麻烦核队一下中药饮片的钱，好像多收了3 元？",
+      "expected": [
+        1,
+        2
+      ],
+      "predicted": [
+        1,
+        2
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T071",
+      "point": "家里人让我打听一下，上次多算了三千二，做 B 超的钱怎么这么贵？",
+      "expected": [
+        3
+      ],
+      "predicted": [
+        3
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T073",
+      "point": "单剧上打麻药的钱写的是三百二十，跟我印象对不上啊？",
+      "expected": [
+        1,
+        5
+      ],
+      "predicted": [
+        1,
+        5
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T075",
+      "point": "我闺女让我来问一下，怎么又多出来一笔做 B 超的钱，一千二百块？",
+      "expected": [
+        5,
+        11
+      ],
+      "predicted": [
+        5,
+        11
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T077",
+      "point": "家里人让我打听一下，上回消炎针的钱没这么贵，这回咋多了一百二十？",
+      "expected": [
+        2,
+        3,
+        7
+      ],
+      "predicted": [
+        2,
+        3,
+        7
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T079",
+      "point": "能不能麻烦核队一下做 B 超的钱，好像多收了三块钱？",
+      "expected": [
+        3,
+        15
+      ],
+      "predicted": [],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T081",
+      "point": "我闺女让我来问一下，上次多算了3200 块钱，换药包的钱怎么这么贵？",
+      "expected": [
+        9
+      ],
+      "predicted": [
+        9
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T083",
+      "point": "家里人让我打听一下，单剧上诊疗费写的是320 元，跟我印象对不上啊？",
+      "expected": [
+        15
+      ],
+      "predicted": [
+        15
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T085",
+      "point": "怎么又多出来一笔开刀的钱，1200 元？",
+      "expected": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "predicted": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T087",
+      "point": "我闺女让我来问一下，上回拍片子的钱没这么贵，这回咋多了120 元？",
+      "expected": [
+        7
+      ],
+      "predicted": [
+        7
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T089",
+      "point": "家里人让我打听一下，能不能麻烦核队一下中药饮片的钱，好像多收了三块？",
+      "expected": [
+        1,
+        2
+      ],
+      "predicted": [
+        1,
+        2
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T091",
+      "point": "上次多算了3千2百，拍片子的钱怎么这么贵？",
+      "expected": [
+        6
+      ],
+      "predicted": [
+        6
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T093",
+      "point": "我闺女让我来问一下，单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "expected": [
+        1,
+        5
+      ],
+      "predicted": [
+        1,
+        5
+      ],
+      "correct": true,
+      "misattributed": false
+    },
+    {
+      "transcriptId": "T095",
+      "point": "家里人让我打听一下，怎么又多出来一笔打麻药的钱，1 千 2？",
+      "expected": [
+        15
+      ],
+      "predicted": [
+        15
+      ],
+      "correct": true,
+      "misattributed": false
+    }
+  ],
+  "baseline_runs": [
+    {
+      "transcriptId": "T001",
+      "point": "上次多算了3200 元，病房的钱怎么这么贵？",
+      "expected": [
+        1
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T003",
+      "point": "我闺女让我来问一下，单剧上挂号的钱写的是320 元，跟我印象对不上啊？",
+      "expected": [
+        3
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T005",
+      "point": "家里人让我打听一下，怎么又多出来一笔开刀的钱，1200 元？",
+      "expected": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T007",
+      "point": "上回拍片子的钱没这么贵，这回咋多了120 元？",
+      "expected": [
+        7
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T009",
+      "point": "我闺女让我来问一下，能不能麻烦核队一下中药饮片的钱，好像多收了3 元？",
+      "expected": [
+        1,
+        2
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T011",
+      "point": "家里人让我打听一下，上次多算了3 千 2，护士照看的钱怎么这么贵？",
+      "expected": [
+        1,
+        11
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T013",
+      "point": "单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "expected": [
+        1,
+        5
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T015",
+      "point": "我闺女让我来问一下，怎么又多出来一笔打麻药的钱，1 千 2？",
+      "expected": [
+        15
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T017",
+      "point": "家里人让我打听一下，上回消炎针的钱没这么贵，这回咋多了一百二？",
+      "expected": [
+        2,
+        3,
+        7
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T019",
+      "point": "能不能麻烦核队一下做 B 超的钱，好像多收了三块钱？",
+      "expected": [
+        3,
+        15
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T021",
+      "point": "我闺女让我来问一下，上次多算了三千二，查房的钱怎么这么贵？",
+      "expected": [
+        3
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T023",
+      "point": "家里人让我打听一下，单剧上病房的钱写的是320 块钱，跟我印象对不上啊？",
+      "expected": [
+        6
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T025",
+      "point": "怎么又多出来一笔开刀的钱，一千二？",
+      "expected": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T027",
+      "point": "我闺女让我来问一下，上回护士照看的钱没这么贵，这回咋多了120 块钱？",
+      "expected": [
+        9,
+        11
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T029",
+      "point": "家里人让我打听一下，能不能麻烦核队一下中药饮片的钱，好像多收了三块？",
+      "expected": [
+        1,
+        2
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T031",
+      "point": "上次多算了3200 块钱，空调费怎么这么贵？",
+      "expected": [
+        8,
+        12,
+        14
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T033",
+      "point": "我闺女让我来问一下，单剧上打麻药的钱写的是三百二十，跟我印象对不上啊？",
+      "expected": [
+        1,
+        5
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T035",
+      "point": "家里人让我打听一下，怎么又多出来一笔开刀的钱，一千二百块？",
+      "expected": [
+        3
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T037",
+      "point": "上回消炎针的钱没这么贵，这回咋多了一百二十？",
+      "expected": [
+        2,
+        3,
+        7
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T039",
+      "point": "我闺女让我来问一下，能不能麻烦核队一下吸氧的钱，好像多收了3 元？",
+      "expected": [
+        7,
+        16
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T041",
+      "point": "家里人让我打听一下，上次多算了3千2百，做 B 超的钱怎么这么贵？",
+      "expected": [
+        5
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T043",
+      "point": "单剧上空调费写的是320 元，跟我印象对不上啊？",
+      "expected": [
+        9
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T045",
+      "point": "我闺女让我来问一下，怎么又多出来一笔开刀的钱，1200 元？",
+      "expected": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T047",
+      "point": "家里人让我打听一下，上回挂水的钱没这么贵，这回咋多了120 元？",
+      "expected": [
+        4,
+        15
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T049",
+      "point": "能不能麻烦核队一下中药饮片的钱，好像多收了三块钱？",
+      "expected": [
+        1,
+        2
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T051",
+      "point": "我闺女让我来问一下，上次多算了3200 元，验血的钱怎么这么贵？",
+      "expected": [
+        5,
+        17
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T053",
+      "point": "家里人让我打听一下，单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "expected": [
+        1,
+        5
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T055",
+      "point": "怎么又多出来一笔心电监护的钱，1 千 2？",
+      "expected": [
+        4,
+        7
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T057",
+      "point": "我闺女让我来问一下，上回消炎针的钱没这么贵，这回咋多了一百二？",
+      "expected": [
+        2,
+        3,
+        7
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T059",
+      "point": "家里人让我打听一下，能不能麻烦核队一下打麻药的钱，好像多收了三块？",
+      "expected": [
+        11
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T061",
+      "point": "上次多算了3 千 2，抽血化验的钱怎么这么贵？",
+      "expected": [
+        7
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T063",
+      "point": "我闺女让我来问一下，单剧上验血的钱写的是320 块钱，跟我印象对不上啊？",
+      "expected": [
+        12,
+        14
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T065",
+      "point": "家里人让我打听一下，怎么又多出来一笔开刀的钱，一千二？",
+      "expected": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T067",
+      "point": "上回吸氧的钱没这么贵，这回咋多了120 块钱？",
+      "expected": [
+        3
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T069",
+      "point": "我闺女让我来问一下，能不能麻烦核队一下中药饮片的钱，好像多收了3 元？",
+      "expected": [
+        1,
+        2
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T071",
+      "point": "家里人让我打听一下，上次多算了三千二，做 B 超的钱怎么这么贵？",
+      "expected": [
+        3
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T073",
+      "point": "单剧上打麻药的钱写的是三百二十，跟我印象对不上啊？",
+      "expected": [
+        1,
+        5
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T075",
+      "point": "我闺女让我来问一下，怎么又多出来一笔做 B 超的钱，一千二百块？",
+      "expected": [
+        5,
+        11
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T077",
+      "point": "家里人让我打听一下，上回消炎针的钱没这么贵，这回咋多了一百二十？",
+      "expected": [
+        2,
+        3,
+        7
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T079",
+      "point": "能不能麻烦核队一下做 B 超的钱，好像多收了三块钱？",
+      "expected": [
+        3,
+        15
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T081",
+      "point": "我闺女让我来问一下，上次多算了3200 块钱，换药包的钱怎么这么贵？",
+      "expected": [
+        9
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T083",
+      "point": "家里人让我打听一下，单剧上诊疗费写的是320 元，跟我印象对不上啊？",
+      "expected": [
+        15
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T085",
+      "point": "怎么又多出来一笔开刀的钱，1200 元？",
+      "expected": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T087",
+      "point": "我闺女让我来问一下，上回拍片子的钱没这么贵，这回咋多了120 元？",
+      "expected": [
+        7
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T089",
+      "point": "家里人让我打听一下，能不能麻烦核队一下中药饮片的钱，好像多收了三块？",
+      "expected": [
+        1,
+        2
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T091",
+      "point": "上次多算了3千2百，拍片子的钱怎么这么贵？",
+      "expected": [
+        6
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T093",
+      "point": "我闺女让我来问一下，单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "expected": [
+        1,
+        5
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "correct": false,
+      "misattributed": true
+    },
+    {
+      "transcriptId": "T095",
+      "point": "家里人让我打听一下，怎么又多出来一笔打麻药的钱，1 千 2？",
+      "expected": [
+        15
+      ],
+      "predicted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "correct": false,
+      "misattributed": true
+    }
+  ]
+}

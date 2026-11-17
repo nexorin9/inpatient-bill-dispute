@@ -1,0 +1,1658 @@
+{
+  "_meta": {
+    "version": "SETTLEMENT-193-2021",
+    "effective_from": "2021-09-06",
+    "source": "domain/dictionaries/医保结算清单字段规范.md（国家医保局结算清单填写规范 + 医保办发〔2021〕34 号修订版）",
+    "partition_counts": {
+      "基本信息": 31,
+      "门诊慢特病诊疗信息": 6,
+      "住院诊疗信息": 58,
+      "医疗收费信息": 98
+    },
+    "total": 193,
+    "honesty_note": "官方资产只收录分区结构、项数与关键校验字段，未全文收录 193 项逐项明细表。official_listed 为资产原文照抄；partition_inferred 为分区内补位编号，仅用于编号唯一性与分区计数对照，不冒充官方逐项名称。"
+  },
+  "fields": [
+    {
+      "code": "BAS-001",
+      "name": "清单流水号",
+      "partition": "基本信息",
+      "ordinal": 1,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-002",
+      "name": "定点医疗机构名称",
+      "partition": "基本信息",
+      "ordinal": 2,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-003",
+      "name": "定点医疗机构代码",
+      "partition": "基本信息",
+      "ordinal": 3,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-004",
+      "name": "医保结算等级",
+      "partition": "基本信息",
+      "ordinal": 4,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-005",
+      "name": "医保类型",
+      "partition": "基本信息",
+      "ordinal": 5,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-006",
+      "name": "姓名",
+      "partition": "基本信息",
+      "ordinal": 6,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-007",
+      "name": "性别",
+      "partition": "基本信息",
+      "ordinal": 7,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-008",
+      "name": "出生日期",
+      "partition": "基本信息",
+      "ordinal": 8,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-009",
+      "name": "年龄",
+      "partition": "基本信息",
+      "ordinal": 9,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-010",
+      "name": "民族",
+      "partition": "基本信息",
+      "ordinal": 10,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-011",
+      "name": "证件类别",
+      "partition": "基本信息",
+      "ordinal": 11,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-012",
+      "name": "证件号码",
+      "partition": "基本信息",
+      "ordinal": 12,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-013",
+      "name": "职业",
+      "partition": "基本信息",
+      "ordinal": 13,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-014",
+      "name": "住址",
+      "partition": "基本信息",
+      "ordinal": 14,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-015",
+      "name": "联系人",
+      "partition": "基本信息",
+      "ordinal": 15,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-016",
+      "name": "参保地",
+      "partition": "基本信息",
+      "ordinal": 16,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-017",
+      "name": "特殊人员类型",
+      "partition": "基本信息",
+      "ordinal": 17,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-018",
+      "name": "新生儿入院类型",
+      "partition": "基本信息",
+      "ordinal": 18,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-019",
+      "name": "新生儿出生体重",
+      "partition": "基本信息",
+      "ordinal": 19,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-020",
+      "name": "新生儿入院体重",
+      "partition": "基本信息",
+      "ordinal": 20,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "BAS-021",
+      "name": "基本信息第 21 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 21,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "BAS-022",
+      "name": "基本信息第 22 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 22,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "BAS-023",
+      "name": "基本信息第 23 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 23,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "BAS-024",
+      "name": "基本信息第 24 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 24,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "BAS-025",
+      "name": "基本信息第 25 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 25,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "BAS-026",
+      "name": "基本信息第 26 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 26,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "BAS-027",
+      "name": "基本信息第 27 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 27,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "BAS-028",
+      "name": "基本信息第 28 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 28,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "BAS-029",
+      "name": "基本信息第 29 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 29,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "BAS-030",
+      "name": "基本信息第 30 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 30,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "BAS-031",
+      "name": "基本信息第 31 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "基本信息",
+      "ordinal": 31,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "OUT-001",
+      "name": "诊断科别",
+      "partition": "门诊慢特病诊疗信息",
+      "ordinal": 1,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "OUT-002",
+      "name": "就诊日期",
+      "partition": "门诊慢特病诊疗信息",
+      "ordinal": 2,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "OUT-003",
+      "name": "诊断名称",
+      "partition": "门诊慢特病诊疗信息",
+      "ordinal": 3,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "OUT-004",
+      "name": "诊断代码",
+      "partition": "门诊慢特病诊疗信息",
+      "ordinal": 4,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "OUT-005",
+      "name": "手术及操作名称",
+      "partition": "门诊慢特病诊疗信息",
+      "ordinal": 5,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "OUT-006",
+      "name": "手术及操作代码",
+      "partition": "门诊慢特病诊疗信息",
+      "ordinal": 6,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-001",
+      "name": "住院医疗类型",
+      "partition": "住院诊疗信息",
+      "ordinal": 1,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-002",
+      "name": "入院途径",
+      "partition": "住院诊疗信息",
+      "ordinal": 2,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-003",
+      "name": "治疗类别",
+      "partition": "住院诊疗信息",
+      "ordinal": 3,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-004",
+      "name": "入院时间",
+      "partition": "住院诊疗信息",
+      "ordinal": 4,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-005",
+      "name": "出院时间",
+      "partition": "住院诊疗信息",
+      "ordinal": 5,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-006",
+      "name": "入院科别",
+      "partition": "住院诊疗信息",
+      "ordinal": 6,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-007",
+      "name": "转科科别",
+      "partition": "住院诊疗信息",
+      "ordinal": 7,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-008",
+      "name": "实际住院天数",
+      "partition": "住院诊疗信息",
+      "ordinal": 8,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-009",
+      "name": "门（急）诊诊断名称（西医）",
+      "partition": "住院诊疗信息",
+      "ordinal": 9,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-010",
+      "name": "门（急）诊诊断代码（西医）",
+      "partition": "住院诊疗信息",
+      "ordinal": 10,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-011",
+      "name": "门（急）诊诊断名称（中医）",
+      "partition": "住院诊疗信息",
+      "ordinal": 11,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-012",
+      "name": "门（急）诊诊断代码（中医）",
+      "partition": "住院诊疗信息",
+      "ordinal": 12,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-013",
+      "name": "出院主要诊断名称",
+      "partition": "住院诊疗信息",
+      "ordinal": 13,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-014",
+      "name": "出院主要诊断代码",
+      "partition": "住院诊疗信息",
+      "ordinal": 14,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-015",
+      "name": "主要诊断入院病情",
+      "partition": "住院诊疗信息",
+      "ordinal": 15,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-016",
+      "name": "出院其他诊断名称",
+      "partition": "住院诊疗信息",
+      "ordinal": 16,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-017",
+      "name": "出院其他诊断代码",
+      "partition": "住院诊疗信息",
+      "ordinal": 17,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-018",
+      "name": "其他诊断入院病情",
+      "partition": "住院诊疗信息",
+      "ordinal": 18,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-019",
+      "name": "诊断代码计数",
+      "partition": "住院诊疗信息",
+      "ordinal": 19,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-020",
+      "name": "手术及操作名称",
+      "partition": "住院诊疗信息",
+      "ordinal": 20,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-021",
+      "name": "手术及操作代码",
+      "partition": "住院诊疗信息",
+      "ordinal": 21,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-022",
+      "name": "手术及操作日期",
+      "partition": "住院诊疗信息",
+      "ordinal": 22,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-023",
+      "name": "麻醉方式",
+      "partition": "住院诊疗信息",
+      "ordinal": 23,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-024",
+      "name": "术者姓名",
+      "partition": "住院诊疗信息",
+      "ordinal": 24,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-025",
+      "name": "术者代码",
+      "partition": "住院诊疗信息",
+      "ordinal": 25,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-026",
+      "name": "麻醉医师姓名",
+      "partition": "住院诊疗信息",
+      "ordinal": 26,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-027",
+      "name": "麻醉医师代码",
+      "partition": "住院诊疗信息",
+      "ordinal": 27,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-028",
+      "name": "主要手术操作标识",
+      "partition": "住院诊疗信息",
+      "ordinal": 28,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-029",
+      "name": "手术操作代码计数",
+      "partition": "住院诊疗信息",
+      "ordinal": 29,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-030",
+      "name": "呼吸机使用时间（天）",
+      "partition": "住院诊疗信息",
+      "ordinal": 30,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-031",
+      "name": "呼吸机使用时间（小时）",
+      "partition": "住院诊疗信息",
+      "ordinal": 31,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-032",
+      "name": "呼吸机使用时间（分钟）",
+      "partition": "住院诊疗信息",
+      "ordinal": 32,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-033",
+      "name": "颅脑损伤患者昏迷时间（入院前）",
+      "partition": "住院诊疗信息",
+      "ordinal": 33,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-034",
+      "name": "颅脑损伤患者昏迷时间（入院后）",
+      "partition": "住院诊疗信息",
+      "ordinal": 34,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-035",
+      "name": "重症监护病房类型",
+      "partition": "住院诊疗信息",
+      "ordinal": 35,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-036",
+      "name": "离院方式",
+      "partition": "住院诊疗信息",
+      "ordinal": 36,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-037",
+      "name": "拟接收机构名称",
+      "partition": "住院诊疗信息",
+      "ordinal": 37,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-038",
+      "name": "拟接收机构代码",
+      "partition": "住院诊疗信息",
+      "ordinal": 38,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "INP-039",
+      "name": "住院诊疗信息第 39 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 39,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-040",
+      "name": "住院诊疗信息第 40 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 40,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-041",
+      "name": "住院诊疗信息第 41 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 41,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-042",
+      "name": "住院诊疗信息第 42 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 42,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-043",
+      "name": "住院诊疗信息第 43 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 43,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-044",
+      "name": "住院诊疗信息第 44 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 44,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-045",
+      "name": "住院诊疗信息第 45 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 45,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-046",
+      "name": "住院诊疗信息第 46 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 46,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-047",
+      "name": "住院诊疗信息第 47 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 47,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-048",
+      "name": "住院诊疗信息第 48 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 48,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-049",
+      "name": "住院诊疗信息第 49 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 49,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-050",
+      "name": "住院诊疗信息第 50 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 50,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-051",
+      "name": "住院诊疗信息第 51 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 51,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-052",
+      "name": "住院诊疗信息第 52 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 52,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-053",
+      "name": "住院诊疗信息第 53 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 53,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-054",
+      "name": "住院诊疗信息第 54 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 54,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-055",
+      "name": "住院诊疗信息第 55 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 55,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-056",
+      "name": "住院诊疗信息第 56 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 56,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-057",
+      "name": "住院诊疗信息第 57 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 57,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "INP-058",
+      "name": "住院诊疗信息第 58 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "住院诊疗信息",
+      "ordinal": 58,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-001",
+      "name": "结算期间",
+      "partition": "医疗收费信息",
+      "ordinal": 1,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-002",
+      "name": "金额合计",
+      "partition": "医疗收费信息",
+      "ordinal": 2,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-003",
+      "name": "甲类费用",
+      "partition": "医疗收费信息",
+      "ordinal": 3,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-004",
+      "name": "乙类费用",
+      "partition": "医疗收费信息",
+      "ordinal": 4,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-005",
+      "name": "自费费用",
+      "partition": "医疗收费信息",
+      "ordinal": 5,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-006",
+      "name": "其他费用",
+      "partition": "医疗收费信息",
+      "ordinal": 6,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-007",
+      "name": "床位费",
+      "partition": "医疗收费信息",
+      "ordinal": 7,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-008",
+      "name": "诊察费",
+      "partition": "医疗收费信息",
+      "ordinal": 8,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-009",
+      "name": "检查费",
+      "partition": "医疗收费信息",
+      "ordinal": 9,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-010",
+      "name": "化验费",
+      "partition": "医疗收费信息",
+      "ordinal": 10,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-011",
+      "name": "治疗费",
+      "partition": "医疗收费信息",
+      "ordinal": 11,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-012",
+      "name": "手术费",
+      "partition": "医疗收费信息",
+      "ordinal": 12,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-013",
+      "name": "护理费",
+      "partition": "医疗收费信息",
+      "ordinal": 13,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-014",
+      "name": "卫生材料费",
+      "partition": "医疗收费信息",
+      "ordinal": 14,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-015",
+      "name": "西药费",
+      "partition": "医疗收费信息",
+      "ordinal": 15,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-016",
+      "name": "中药饮片费",
+      "partition": "医疗收费信息",
+      "ordinal": 16,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-017",
+      "name": "中成药费",
+      "partition": "医疗收费信息",
+      "ordinal": 17,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-018",
+      "name": "一般诊疗费",
+      "partition": "医疗收费信息",
+      "ordinal": 18,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-019",
+      "name": "挂号费",
+      "partition": "医疗收费信息",
+      "ordinal": 19,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-020",
+      "name": "其他住院费用",
+      "partition": "医疗收费信息",
+      "ordinal": 20,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-021",
+      "name": "医保统筹基金支付",
+      "partition": "医疗收费信息",
+      "ordinal": 21,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-022",
+      "name": "补充医疗保险支付",
+      "partition": "医疗收费信息",
+      "ordinal": 22,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-023",
+      "name": "医疗救助支付",
+      "partition": "医疗收费信息",
+      "ordinal": 23,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-024",
+      "name": "个人负担",
+      "partition": "医疗收费信息",
+      "ordinal": 24,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-025",
+      "name": "其他支付",
+      "partition": "医疗收费信息",
+      "ordinal": 25,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-026",
+      "name": "个人支付",
+      "partition": "医疗收费信息",
+      "ordinal": 26,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-027",
+      "name": "麻醉起止时间",
+      "partition": "医疗收费信息",
+      "ordinal": 27,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-028",
+      "name": "责任护士姓名",
+      "partition": "医疗收费信息",
+      "ordinal": 28,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-029",
+      "name": "责任护士代码",
+      "partition": "医疗收费信息",
+      "ordinal": 29,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-030",
+      "name": "按病种收费名称",
+      "partition": "医疗收费信息",
+      "ordinal": 30,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-031",
+      "name": "按病种收费代码",
+      "partition": "医疗收费信息",
+      "ordinal": 31,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-032",
+      "name": "商业保险",
+      "partition": "医疗收费信息",
+      "ordinal": 32,
+      "provenance": "official_listed",
+      "required": true
+    },
+    {
+      "code": "FEE-033",
+      "name": "医疗收费信息第 33 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 33,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-034",
+      "name": "医疗收费信息第 34 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 34,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-035",
+      "name": "医疗收费信息第 35 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 35,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-036",
+      "name": "医疗收费信息第 36 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 36,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-037",
+      "name": "医疗收费信息第 37 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 37,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-038",
+      "name": "医疗收费信息第 38 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 38,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-039",
+      "name": "医疗收费信息第 39 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 39,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-040",
+      "name": "医疗收费信息第 40 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 40,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-041",
+      "name": "医疗收费信息第 41 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 41,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-042",
+      "name": "医疗收费信息第 42 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 42,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-043",
+      "name": "医疗收费信息第 43 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 43,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-044",
+      "name": "医疗收费信息第 44 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 44,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-045",
+      "name": "医疗收费信息第 45 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 45,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-046",
+      "name": "医疗收费信息第 46 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 46,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-047",
+      "name": "医疗收费信息第 47 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 47,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-048",
+      "name": "医疗收费信息第 48 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 48,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-049",
+      "name": "医疗收费信息第 49 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 49,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-050",
+      "name": "医疗收费信息第 50 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 50,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-051",
+      "name": "医疗收费信息第 51 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 51,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-052",
+      "name": "医疗收费信息第 52 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 52,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-053",
+      "name": "医疗收费信息第 53 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 53,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-054",
+      "name": "医疗收费信息第 54 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 54,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-055",
+      "name": "医疗收费信息第 55 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 55,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-056",
+      "name": "医疗收费信息第 56 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 56,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-057",
+      "name": "医疗收费信息第 57 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 57,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-058",
+      "name": "医疗收费信息第 58 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 58,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-059",
+      "name": "医疗收费信息第 59 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 59,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-060",
+      "name": "医疗收费信息第 60 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 60,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-061",
+      "name": "医疗收费信息第 61 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 61,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-062",
+      "name": "医疗收费信息第 62 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 62,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-063",
+      "name": "医疗收费信息第 63 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 63,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-064",
+      "name": "医疗收费信息第 64 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 64,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-065",
+      "name": "医疗收费信息第 65 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 65,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-066",
+      "name": "医疗收费信息第 66 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 66,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-067",
+      "name": "医疗收费信息第 67 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 67,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-068",
+      "name": "医疗收费信息第 68 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 68,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-069",
+      "name": "医疗收费信息第 69 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 69,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-070",
+      "name": "医疗收费信息第 70 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 70,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-071",
+      "name": "医疗收费信息第 71 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 71,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-072",
+      "name": "医疗收费信息第 72 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 72,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-073",
+      "name": "医疗收费信息第 73 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 73,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-074",
+      "name": "医疗收费信息第 74 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 74,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-075",
+      "name": "医疗收费信息第 75 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 75,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-076",
+      "name": "医疗收费信息第 76 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 76,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-077",
+      "name": "医疗收费信息第 77 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 77,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-078",
+      "name": "医疗收费信息第 78 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 78,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-079",
+      "name": "医疗收费信息第 79 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 79,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-080",
+      "name": "医疗收费信息第 80 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 80,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-081",
+      "name": "医疗收费信息第 81 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 81,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-082",
+      "name": "医疗收费信息第 82 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 82,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-083",
+      "name": "医疗收费信息第 83 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 83,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-084",
+      "name": "医疗收费信息第 84 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 84,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-085",
+      "name": "医疗收费信息第 85 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 85,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-086",
+      "name": "医疗收费信息第 86 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 86,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-087",
+      "name": "医疗收费信息第 87 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 87,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-088",
+      "name": "医疗收费信息第 88 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 88,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-089",
+      "name": "医疗收费信息第 89 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 89,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-090",
+      "name": "医疗收费信息第 90 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 90,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-091",
+      "name": "医疗收费信息第 91 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 91,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-092",
+      "name": "医疗收费信息第 92 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 92,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-093",
+      "name": "医疗收费信息第 93 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 93,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-094",
+      "name": "医疗收费信息第 94 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 94,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-095",
+      "name": "医疗收费信息第 95 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 95,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-096",
+      "name": "医疗收费信息第 96 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 96,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-097",
+      "name": "医疗收费信息第 97 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 97,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    },
+    {
+      "code": "FEE-098",
+      "name": "医疗收费信息第 98 项（分区内补位，官方逐项名称以清单 PDF 为准）",
+      "partition": "医疗收费信息",
+      "ordinal": 98,
+      "provenance": "partition_inferred",
+      "required": true,
+      "note": "官方资产未全文收录逐项名称；此条仅用于编号与分区计数对照"
+    }
+  ]
+}

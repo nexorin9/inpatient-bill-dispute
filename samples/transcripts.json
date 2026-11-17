@@ -1,0 +1,1518 @@
+{
+  "items": [
+    {
+      "id": "T001",
+      "encounter_no": "ZY2026000001",
+      "text": "上次多算了3200 元，病房的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        1
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T002",
+      "encounter_no": "ZY2026000002",
+      "text": "是不是把空调降温费收了两遍，多出来1800 元？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        2,
+        12
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T003",
+      "encounter_no": "ZY2026000003",
+      "text": "我闺女让我来问一下，单剧上挂号的钱写的是320 元，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        3
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T004",
+      "encounter_no": "ZY2026000004",
+      "text": "女儿替我问问，这280 元的复方丹参滴丸医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        4,
+        14
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T005",
+      "encounter_no": "ZY2026000005",
+      "text": "家里人让我打听一下，怎么又多出来一笔开刀的钱，1200 元？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T006",
+      "encounter_no": "ZY2026000006",
+      "text": "我儿子说让来问一嘴，氧气吸入收680 元是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        6
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T007",
+      "encounter_no": "ZY2026000007",
+      "text": "上回拍片子的钱没这么贵，这回咋多了120 元？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        7
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T008",
+      "encounter_no": "ZY2026000008",
+      "text": "诊察费这46 元到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        5,
+        8
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T009",
+      "encounter_no": "ZY2026000009",
+      "text": "我闺女让我来问一下，能不能麻烦核队一下中药饮片的钱，好像多收了3 元？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        1,
+        2
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T010",
+      "encounter_no": "ZY2026000010",
+      "text": "女儿替我问问，女儿说彩色多普勒超声这笔8.5 元不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        10
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T011",
+      "encounter_no": "ZY2026000011",
+      "text": "家里人让我打听一下，上次多算了3 千 2，护士照看的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        1,
+        11
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T012",
+      "encounter_no": "ZY2026000012",
+      "text": "我儿子说让来问一嘴，是不是把心电监护收了两遍，多出来1 千 8？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        4,
+        12
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T013",
+      "encounter_no": "ZY2026000013",
+      "text": "单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        1,
+        5
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T014",
+      "encounter_no": "ZY2026000014",
+      "text": "这二百八的血常规医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        5,
+        14
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T015",
+      "encounter_no": "ZY2026000015",
+      "text": "我闺女让我来问一下，怎么又多出来一笔打麻药的钱，1 千 2？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        15
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T016",
+      "encounter_no": "ZY2026000016",
+      "text": "女儿替我问问，床位费收六百八是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        4,
+        16
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T017",
+      "encounter_no": "ZY2026000017",
+      "text": "家里人让我打听一下，上回消炎针的钱没这么贵，这回咋多了一百二？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T018",
+      "encounter_no": "ZY2026000018",
+      "text": "我儿子说让来问一嘴，挂号费这四十六块到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        2,
+        5,
+        7,
+        15
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T019",
+      "encounter_no": "ZY2026000019",
+      "text": "能不能麻烦核队一下做 B 超的钱，好像多收了三块钱？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        3,
+        15
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T020",
+      "encounter_no": "ZY2026000020",
+      "text": "女儿说阑尾切除术这笔八块五不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        4
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T021",
+      "encounter_no": "ZY2026000001",
+      "text": "我闺女让我来问一下，上次多算了三千二，查房的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        3
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T022",
+      "encounter_no": "ZY2026000002",
+      "text": "女儿替我问问，是不是把氧气吸入收了两遍，多出来一千八？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        4,
+        6
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T023",
+      "encounter_no": "ZY2026000003",
+      "text": "家里人让我打听一下，单剧上病房的钱写的是320 块钱，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        6
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T024",
+      "encounter_no": "ZY2026000004",
+      "text": "我儿子说让来问一嘴，这280 块的彩色多普勒超声医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        7
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T025",
+      "encounter_no": "ZY2026000005",
+      "text": "怎么又多出来一笔开刀的钱，一千二？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T026",
+      "encounter_no": "ZY2026000006",
+      "text": "彩色多普勒超声收680 块钱是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        10
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T027",
+      "encounter_no": "ZY2026000007",
+      "text": "我闺女让我来问一下，上回护士照看的钱没这么贵，这回咋多了120 块钱？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        9,
+        11
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T028",
+      "encounter_no": "ZY2026000008",
+      "text": "女儿替我问问，一级护理这46 块钱到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        11
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T029",
+      "encounter_no": "ZY2026000009",
+      "text": "家里人让我打听一下，能不能麻烦核队一下中药饮片的钱，好像多收了三块？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        1,
+        2
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T030",
+      "encounter_no": "ZY2026000010",
+      "text": "我儿子说让来问一嘴，女儿说黄芪饮片这笔八元五不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        13
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T031",
+      "encounter_no": "ZY2026000011",
+      "text": "上次多算了3200 块钱，空调费怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        8,
+        12,
+        14
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T032",
+      "encounter_no": "ZY2026000012",
+      "text": "是不是把空调降温费收了两遍，多出来一千八百块？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        16
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T033",
+      "encounter_no": "ZY2026000013",
+      "text": "我闺女让我来问一下，单剧上打麻药的钱写的是三百二十，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        1,
+        5
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T034",
+      "encounter_no": "ZY2026000014",
+      "text": "女儿替我问问，这二百八十的生化全套医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        17
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T035",
+      "encounter_no": "ZY2026000015",
+      "text": "家里人让我打听一下，怎么又多出来一笔开刀的钱，一千二百块？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        3
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T036",
+      "encounter_no": "ZY2026000016",
+      "text": "我儿子说让来问一嘴，一次性输液器收六百八十是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        18
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T037",
+      "encounter_no": "ZY2026000017",
+      "text": "上回消炎针的钱没这么贵，这回咋多了一百二十？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T038",
+      "encounter_no": "ZY2026000018",
+      "text": "床位费这46 元到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        6,
+        13
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T039",
+      "encounter_no": "ZY2026000019",
+      "text": "我闺女让我来问一下，能不能麻烦核队一下吸氧的钱，好像多收了3 元？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        7,
+        16
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T040",
+      "encounter_no": "ZY2026000020",
+      "text": "女儿替我问问，女儿说心电监护这笔8.5 元不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        8,
+        15
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T041",
+      "encounter_no": "ZY2026000001",
+      "text": "家里人让我打听一下，上次多算了3千2百，做 B 超的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        5
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T042",
+      "encounter_no": "ZY2026000002",
+      "text": "我儿子说让来问一嘴，是不是把氧气吸入收了两遍，多出来1800 元？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        4,
+        6
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T043",
+      "encounter_no": "ZY2026000003",
+      "text": "单剧上空调费写的是320 元，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        9
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T044",
+      "encounter_no": "ZY2026000004",
+      "text": "这280 元的氯化钠注射液医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        10,
+        17
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T045",
+      "encounter_no": "ZY2026000005",
+      "text": "我闺女让我来问一下，怎么又多出来一笔开刀的钱，1200 元？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T046",
+      "encounter_no": "ZY2026000006",
+      "text": "女儿替我问问，床位费收680 元是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        14
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T047",
+      "encounter_no": "ZY2026000007",
+      "text": "家里人让我打听一下，上回挂水的钱没这么贵，这回咋多了120 元？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        4,
+        15
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T048",
+      "encounter_no": "ZY2026000008",
+      "text": "我儿子说让来问一嘴，黄芪饮片这四十六块到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        14
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T049",
+      "encounter_no": "ZY2026000009",
+      "text": "能不能麻烦核队一下中药饮片的钱，好像多收了三块钱？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        1,
+        2
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T050",
+      "encounter_no": "ZY2026000010",
+      "text": "女儿说空调降温费这笔八块五不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        16
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T051",
+      "encounter_no": "ZY2026000011",
+      "text": "我闺女让我来问一下，上次多算了3200 元，验血的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        5,
+        17
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T052",
+      "encounter_no": "ZY2026000012",
+      "text": "女儿替我问问，是不是把心电监护收了两遍，多出来1 千 8？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        4,
+        12
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T053",
+      "encounter_no": "ZY2026000013",
+      "text": "家里人让我打听一下，单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        1,
+        5
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T054",
+      "encounter_no": "ZY2026000014",
+      "text": "我儿子说让来问一嘴，这二百八的黄芪饮片医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        3,
+        12
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T055",
+      "encounter_no": "ZY2026000015",
+      "text": "怎么又多出来一笔心电监护的钱，1 千 2？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        4,
+        7
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T056",
+      "encounter_no": "ZY2026000016",
+      "text": "住院诊查费收六百八是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        2,
+        14
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T057",
+      "encounter_no": "ZY2026000017",
+      "text": "我闺女让我来问一下，上回消炎针的钱没这么贵，这回咋多了一百二？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T058",
+      "encounter_no": "ZY2026000018",
+      "text": "女儿替我问问，换药这46 块钱到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        10
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T059",
+      "encounter_no": "ZY2026000019",
+      "text": "家里人让我打听一下，能不能麻烦核队一下打麻药的钱，好像多收了三块？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        11
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T060",
+      "encounter_no": "ZY2026000020",
+      "text": "我儿子说让来问一嘴，女儿说血常规这笔八元五不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        12
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T061",
+      "encounter_no": "ZY2026000001",
+      "text": "上次多算了3 千 2，抽血化验的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        7
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T062",
+      "encounter_no": "ZY2026000002",
+      "text": "是不是把注射用头孢呋辛收了两遍，多出来一千八？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        8
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T063",
+      "encounter_no": "ZY2026000003",
+      "text": "我闺女让我来问一下，单剧上验血的钱写的是320 块钱，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        12,
+        14
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T064",
+      "encounter_no": "ZY2026000004",
+      "text": "女儿替我问问，这280 块的心电监护医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        5,
+        12,
+        13
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T065",
+      "encounter_no": "ZY2026000005",
+      "text": "家里人让我打听一下，怎么又多出来一笔开刀的钱，一千二？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T066",
+      "encounter_no": "ZY2026000006",
+      "text": "我儿子说让来问一嘴，CT 平扫收680 块钱是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        2
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T067",
+      "encounter_no": "ZY2026000007",
+      "text": "上回吸氧的钱没这么贵，这回咋多了120 块钱？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        3
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T068",
+      "encounter_no": "ZY2026000008",
+      "text": "CT 平扫这46 元到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        17
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T069",
+      "encounter_no": "ZY2026000009",
+      "text": "我闺女让我来问一下，能不能麻烦核队一下中药饮片的钱，好像多收了3 元？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        1,
+        2
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T070",
+      "encounter_no": "ZY2026000010",
+      "text": "女儿替我问问，女儿说血常规这笔8.5 元不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        2,
+        12,
+        14
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T071",
+      "encounter_no": "ZY2026000011",
+      "text": "家里人让我打听一下，上次多算了三千二，做 B 超的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        3
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T072",
+      "encounter_no": "ZY2026000012",
+      "text": "我儿子说让来问一嘴，是不是把一次性输液器收了两遍，多出来一千八百块？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        5,
+        8
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T073",
+      "encounter_no": "ZY2026000013",
+      "text": "单剧上打麻药的钱写的是三百二十，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        1,
+        5
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T074",
+      "encounter_no": "ZY2026000014",
+      "text": "这二百八十的氧气吸入医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        6
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T075",
+      "encounter_no": "ZY2026000015",
+      "text": "我闺女让我来问一下，怎么又多出来一笔做 B 超的钱，一千二百块？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        5,
+        11
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T076",
+      "encounter_no": "ZY2026000016",
+      "text": "女儿替我问问，床位费收六百八十是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        4,
+        16
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T077",
+      "encounter_no": "ZY2026000017",
+      "text": "家里人让我打听一下，上回消炎针的钱没这么贵，这回咋多了一百二十？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T078",
+      "encounter_no": "ZY2026000018",
+      "text": "我儿子说让来问一嘴，氧气吸入这四十六块到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        14
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T079",
+      "encounter_no": "ZY2026000019",
+      "text": "能不能麻烦核队一下做 B 超的钱，好像多收了三块钱？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        3,
+        15
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T080",
+      "encounter_no": "ZY2026000020",
+      "text": "女儿说一次性输液器这笔八块五不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        6,
+        16
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T081",
+      "encounter_no": "ZY2026000001",
+      "text": "我闺女让我来问一下，上次多算了3200 块钱，换药包的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        9
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T082",
+      "encounter_no": "ZY2026000002",
+      "text": "女儿替我问问，是不是把换药收了两遍，多出来1800 元？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        10,
+        16,
+        18
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T083",
+      "encounter_no": "ZY2026000003",
+      "text": "家里人让我打听一下，单剧上诊疗费写的是320 元，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        15
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T084",
+      "encounter_no": "ZY2026000004",
+      "text": "我儿子说让来问一嘴，这280 元的一般诊疗费医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        16
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T085",
+      "encounter_no": "ZY2026000005",
+      "text": "怎么又多出来一笔开刀的钱，1200 元？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T086",
+      "encounter_no": "ZY2026000006",
+      "text": "氧气吸入收680 元是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        6
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T087",
+      "encounter_no": "ZY2026000007",
+      "text": "我闺女让我来问一下，上回拍片子的钱没这么贵，这回咋多了120 元？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        7
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T088",
+      "encounter_no": "ZY2026000008",
+      "text": "女儿替我问问，一次性输液器这46 块钱到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        3
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T089",
+      "encounter_no": "ZY2026000009",
+      "text": "家里人让我打听一下，能不能麻烦核队一下中药饮片的钱，好像多收了三块？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        1,
+        2
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T090",
+      "encounter_no": "ZY2026000010",
+      "text": "我儿子说让来问一嘴，女儿说换药这笔八元五不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        5,
+        7
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T091",
+      "encounter_no": "ZY2026000011",
+      "text": "上次多算了3千2百，拍片子的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        6
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T092",
+      "encounter_no": "ZY2026000012",
+      "text": "是不是把心电监护收了两遍，多出来1 千 8？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        4,
+        12
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T093",
+      "encounter_no": "ZY2026000013",
+      "text": "我闺女让我来问一下，单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        1,
+        5
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T094",
+      "encounter_no": "ZY2026000014",
+      "text": "女儿替我问问，这二百八的注射用头孢呋辛医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        9
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T095",
+      "encounter_no": "ZY2026000015",
+      "text": "家里人让我打听一下，怎么又多出来一笔打麻药的钱，1 千 2？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        15
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T096",
+      "encounter_no": "ZY2026000016",
+      "text": "我儿子说让来问一嘴，生化全套收六百八是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        6,
+        12,
+        17
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T097",
+      "encounter_no": "ZY2026000017",
+      "text": "上回消炎针的钱没这么贵，这回咋多了一百二？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T098",
+      "encounter_no": "ZY2026000018",
+      "text": "挂号费这46 元到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        2,
+        5,
+        7,
+        15
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T099",
+      "encounter_no": "ZY2026000019",
+      "text": "我闺女让我来问一下，能不能麻烦核队一下做 B 超的钱，好像多收了3 元？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        3,
+        15
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T100",
+      "encounter_no": "ZY2026000020",
+      "text": "女儿替我问问，女儿说阑尾切除术这笔8.5 元不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        4
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T101",
+      "encounter_no": "ZY2026000001",
+      "text": "家里人让我打听一下，上次多算了3200 元，开刀的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        11
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T102",
+      "encounter_no": "ZY2026000002",
+      "text": "我儿子说让来问一嘴，是不是把空调降温费收了两遍，多出来一千八？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        2,
+        12
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T103",
+      "encounter_no": "ZY2026000003",
+      "text": "单剧上中药饮片的钱写的是320 块钱，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        1,
+        4
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T104",
+      "encounter_no": "ZY2026000004",
+      "text": "这280 块的血常规医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        2
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T105",
+      "encounter_no": "ZY2026000005",
+      "text": "我闺女让我来问一下，怎么又多出来一笔开刀的钱，一千二？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T106",
+      "encounter_no": "ZY2026000006",
+      "text": "女儿替我问问，彩色多普勒超声收680 块钱是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        10
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T107",
+      "encounter_no": "ZY2026000007",
+      "text": "家里人让我打听一下，上回护士照看的钱没这么贵，这回咋多了120 块钱？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        9,
+        11
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T108",
+      "encounter_no": "ZY2026000008",
+      "text": "我儿子说让来问一嘴，挂号费这四十六块到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        6
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T109",
+      "encounter_no": "ZY2026000009",
+      "text": "能不能麻烦核队一下中药饮片的钱，好像多收了三块钱？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        1,
+        2
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T110",
+      "encounter_no": "ZY2026000010",
+      "text": "女儿说麻醉费这笔八块五不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        8,
+        15
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T111",
+      "encounter_no": "ZY2026000011",
+      "text": "我闺女让我来问一下，上次多算了3 千 2，病房的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        4,
+        9
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T112",
+      "encounter_no": "ZY2026000012",
+      "text": "女儿替我问问，是不是把空调降温费收了两遍，多出来一千八百块？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        16
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T113",
+      "encounter_no": "ZY2026000013",
+      "text": "家里人让我打听一下，单剧上打麻药的钱写的是三百二十，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        1,
+        5
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T114",
+      "encounter_no": "ZY2026000014",
+      "text": "我儿子说让来问一嘴，这二百八十的黄芪饮片医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        3,
+        12
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T115",
+      "encounter_no": "ZY2026000015",
+      "text": "怎么又多出来一笔开刀的钱，一千二百块？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        3
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T116",
+      "encounter_no": "ZY2026000016",
+      "text": "挂号费收六百八十是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        8,
+        15
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T117",
+      "encounter_no": "ZY2026000017",
+      "text": "我闺女让我来问一下，上回消炎针的钱没这么贵，这回咋多了一百二十？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T118",
+      "encounter_no": "ZY2026000018",
+      "text": "女儿替我问问，床位费这46 块钱到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        6,
+        13
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T119",
+      "encounter_no": "ZY2026000019",
+      "text": "家里人让我打听一下，能不能麻烦核队一下吸氧的钱，好像多收了三块？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        7,
+        16
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T120",
+      "encounter_no": "ZY2026000020",
+      "text": "我儿子说让来问一嘴，女儿说心电监护这笔八元五不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        8,
+        15
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T121",
+      "encounter_no": "ZY2026000001",
+      "text": "上次多算了三千二，输液管的钱怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        13
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T122",
+      "encounter_no": "ZY2026000002",
+      "text": "是不是把阑尾切除术收了两遍，多出来1800 元？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        14
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T123",
+      "encounter_no": "ZY2026000003",
+      "text": "我闺女让我来问一下，单剧上中药饮片的钱写的是320 元，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        1,
+        4
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T124",
+      "encounter_no": "ZY2026000004",
+      "text": "女儿替我问问，这280 元的心电监护医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        5,
+        12,
+        13
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T125",
+      "encounter_no": "ZY2026000005",
+      "text": "家里人让我打听一下，怎么又多出来一笔开刀的钱，1200 元？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        4,
+        7,
+        8,
+        14
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T126",
+      "encounter_no": "ZY2026000006",
+      "text": "我儿子说让来问一嘴，床位费收680 元是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        14
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T127",
+      "encounter_no": "ZY2026000007",
+      "text": "上回挂水的钱没这么贵，这回咋多了120 元？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        4,
+        15
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T128",
+      "encounter_no": "ZY2026000008",
+      "text": "复方丹参滴丸这46 元到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        9
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T129",
+      "encounter_no": "ZY2026000009",
+      "text": "我闺女让我来问一下，能不能麻烦核队一下中药饮片的钱，好像多收了3 元？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        1,
+        2
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T130",
+      "encounter_no": "ZY2026000010",
+      "text": "女儿替我问问，女儿说诊察费这笔8.5 元不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        11
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T131",
+      "encounter_no": "ZY2026000011",
+      "text": "家里人让我打听一下，上次多算了3200 块钱，空调费怎么这么贵？",
+      "spoken_amount": 3200,
+      "expected_line_numbers": [
+        8,
+        12,
+        14
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T132",
+      "encounter_no": "ZY2026000012",
+      "text": "我儿子说让来问一嘴，是不是把心电监护收了两遍，多出来1 千 8？",
+      "spoken_amount": 1800,
+      "expected_line_numbers": [
+        4,
+        12
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T133",
+      "encounter_no": "ZY2026000013",
+      "text": "单剧上打麻药的钱写的是三百二，跟我印象对不上啊？",
+      "spoken_amount": 320,
+      "expected_line_numbers": [
+        1,
+        5
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T134",
+      "encounter_no": "ZY2026000014",
+      "text": "这二百八的换药医保咋不给定点报消？",
+      "spoken_amount": 280,
+      "expected_line_numbers": [
+        15,
+        16
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T135",
+      "encounter_no": "ZY2026000015",
+      "text": "我闺女让我来问一下，怎么又多出来一笔心电监护的钱，1 千 2？",
+      "spoken_amount": 1200,
+      "expected_line_numbers": [
+        4,
+        7
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T136",
+      "encounter_no": "ZY2026000016",
+      "text": "女儿替我问问，复方丹参滴丸收六百八是不是有点离普？",
+      "spoken_amount": 680,
+      "expected_line_numbers": [
+        10
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T137",
+      "encounter_no": "ZY2026000017",
+      "text": "家里人让我打听一下，上回消炎针的钱没这么贵，这回咋多了一百二？",
+      "spoken_amount": 120,
+      "expected_line_numbers": [
+        2,
+        3,
+        7
+      ],
+      "category": "to_insurance_office"
+    },
+    {
+      "id": "T138",
+      "encounter_no": "ZY2026000018",
+      "text": "我儿子说让来问一嘴，换药这四十六块到底算不算在报销里？",
+      "spoken_amount": 46,
+      "expected_line_numbers": [
+        10
+      ],
+      "category": "needs_human"
+    },
+    {
+      "id": "T139",
+      "encounter_no": "ZY2026000019",
+      "text": "能不能麻烦核队一下打麻药的钱，好像多收了三块钱？",
+      "spoken_amount": 3,
+      "expected_line_numbers": [
+        11
+      ],
+      "category": "internal_check"
+    },
+    {
+      "id": "T140",
+      "encounter_no": "ZY2026000020",
+      "text": "女儿说血常规这笔八块五不该我们出，是不是弄错了？",
+      "spoken_amount": 8.5,
+      "expected_line_numbers": [
+        12
+      ],
+      "category": "to_insurance_office"
+    }
+  ]
+}
